@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import hkLogo from '../../hk logo.png'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -34,7 +35,7 @@ const Footer = () => {
           {/* Company Info */}
           <motion.div variants={itemVariants}>
             <div className="flex items-center space-x-2 mb-4">
-              <img src="hk logo.png" alt="Menasud HK" className="h-8 w-auto" />
+              <img src={hkLogo} alt="Menasud HK" className="h-8 w-auto" />
               <h3 className="text-lg font-bold">Menasud HK</h3>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">

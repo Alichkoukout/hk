@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import hkLogo from '../../hk logo.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -32,7 +33,7 @@ const Navbar = () => {
               animate={{ scale: 1 }}
               className="flex items-center space-x-2"
             >
-              <img src="hk logo.png" alt="Menasud HK" className="h-10 w-auto" />
+              <img src={hkLogo} alt="Menasud HK" className="h-10 w-auto" />
               <span className="font-bold text-lg text-gray-900 hidden sm:inline">
                 Menasud HK
               </span>

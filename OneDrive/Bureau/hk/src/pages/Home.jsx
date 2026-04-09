@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import Card from '../components/Card'
+import menasud2 from '../../menasud2.png'
 
 const Home = () => {
   const services = [
@@ -112,7 +113,7 @@ const Home = () => {
               <div className="w-full h-96 rounded-3xl overflow-hidden shadow-lg">
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-blue-600 rounded-3xl opacity-10 blur-3xl"></div>
                 <img
-                  src="menasud2.png"
+                  src={menasud2}
                   alt="Menasud Global Operations"
                   className="relative w-full h-full rounded-3xl object-contain"
                 />

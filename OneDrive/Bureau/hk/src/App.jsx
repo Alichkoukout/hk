@@ -7,7 +7,6 @@ import Petroleum from './pages/Petroleum'
 import Mining from './pages/Mining'
 import Storage from './pages/Storage'
 import Services from './pages/Services'
-import Partners from './pages/Partners'
 import Contact from './pages/Contact'
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
             <Route path="/mining" element={<Mining />} />
             <Route path="/storage" element={<Storage />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/partners" element={<Partners />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

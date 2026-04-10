@@ -13,7 +13,6 @@ const Navbar = () => {
     { name: 'Mining', path: '/mining' },
     { name: 'Storage', path: '/storage' },
     { name: 'Services', path: '/services' },
-    { name: 'Partners', path: '/partners' },
     { name: 'Contact', path: '/contact' },
   ]
 

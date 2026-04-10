@@ -89,11 +89,6 @@ const Footer = () => {
                   Storage Solutions
                 </Link>
               </li>
-              <li>
-                <Link to="/partners" className="text-gray-400 hover:text-blue-400 transition-colors duration-200">
-                  Partners
-                </Link>
-              </li>
             </ul>
           </motion.div>
 
